@@ -1,0 +1,17 @@
+.booking-config {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  height: 100vh;
+}
+.booking-config__header {
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.MuiFormControlLabel-root {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}

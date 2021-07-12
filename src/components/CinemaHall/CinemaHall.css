@@ -1,0 +1,85 @@
+.cinema-hall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.cinama-hall__header {
+  font-size: 35px;
+  padding: 20px;
+}
+
+.cinema-hall__grid-containter {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr [col-start]);
+  grid-template-rows: repeat(10, 1fr [row-start]);
+  background-color: lightgray;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
+  border: 1px solid rgb(170, 170, 170);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cinema-hall__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  width: 900px;
+}
+.cinema-hall__legend {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  align-items: center;
+  font-size: 14px;
+  width: 100%;
+}
+.legend-boxes {
+  display: flex;
+  align-items: center;
+}
+.cinema-hall__legend-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  height: 35px;
+  width: 35px;
+  border: 1px solid gray;
+  margin: 0 10px 0 20px;
+}
+.cinema-hall__legend-box:first-child {
+ margin-left: 0;
+}
+.not-avaible {
+  background-color: darkgray;
+  color: #8b0000;
+}
+.marked {
+  background-color: orange;
+}
+.cinema-hall__market-count {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cinema-hall__buttons {
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+  align-self: flex-end;
+  margin-top: 10px;
+}
